@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <img id="header-img"
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="">
+        </div>
+   <nav class="nav" id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#Features">Features</a></li>
+                <li><a class="nav-link" href="#How_It_Works">How It Works</a></li>
+                <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <div class="container"></div>
+    <section id="hero">
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" name="email" placeholder="Enter Your Email" required="">
+            <input type="submit" class="btn" id="submit" value="Get Started">
+        </form>
+
+    </section>
+    <div class="container">
+        <section id="Features">
+            <div class="grid">
+                <div class="logo1">
+                    <img src="https://png.pngtree.com/png-vector/20190725/ourmid/pngtree-fire-logo-icon-design-template-vector-png-image_1587054.jpg"
+                        alt="">
+                </div>
+                <div class="content">
+                    <h2>Premium Materials</h2>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity
+                        of your purchase. </p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="logo1">
+                    <img src="https://i.pinimg.com/564x/80/f1/cc/80f1cc87bc0ce8d353603dd67c180469.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Fast Shipping</h2>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide
+                        free returns if you are not satisfied. </p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="logo1">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAq1BMVEX////8sED2qjT/8c/zskb237b8rjr20Jr++u766sr9rTL1x3/5rDL9rzX8sT/++en/9Nb47M/+//v12av1r0X0rC71vGn8rSX/+ujxzZT///b0sUb2xHTxqzT7sT312aj0uWH56L/vvWPyt1T03LP3tUz2tVP226TsvGv99d/ss1b0qz73u2j0u2/47Mfwx4Pqqzbvpxv237jz0ZD2tlz2xnP/+uD/+tjy1J6u7RtUAAADk0lEQVR4nO3cD1OiQBgG8F2UjThcFckQDtLDP6Fll5X1/T/ZLXhlWYzA2cmLz2/MSnFmn3lhl1VcxgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgFDvzn7qw2WiwNapjxl5gbi16x27O4dm/BA85lwrnXPTrV0Qv4oK/kZF37AaVl1EclZCn5VNULYdfbWZT6YJs5nXHvd7VVe+dq4nk70xnvV1dj5HpZTvXweUuS3AZhulNCqW1u4Gp3XaI5GPx3FwM+/2b/ifbh24/PTdcmPP42E3PxWZ3ZrT0bHVQfZA8ZW82sL/ijSLzjsZe6jqa/tXjexuvC989fHO+QUPz26Ve2Ha0zoHb8j0aVrPuCbXaJ7RK76UBElbDP/Q09U9I5Tisf0+DGmYhlBA1zEAoIWqYgVDC+tew/gmxl2YglBA1zEAoIWqYgVDC+tew/gmxl2YglBA1zEAoIWqYgVBC1DADElYG9tJMLp2EqGEGSgkN5irtvNJtXY9Uwu5v32/6zbx83wmDmNAnpCrhhUyuRJSSy/RO7tx9eFhtx7mwusQS8g8X6u0na5+QI2GFICESVh8SImH1IWFtEhZE8KxNFKqiDFVCn1RCURSxGsY/imsTep9GzfHLMCgltJfnhRmk3sU4vzetYsz7rkvpODyJ8RAJ6ScsCgkrBAmRsPpOpi9FQuoJrbclInJK5/iEzrxVwrTZf+37Q22q5vikZk8lP10jlFDNnlots5DLLqk5vqEXtNLHBqX54QlcixEPzooatIn1NOo4LITacZiMh8X6UjXi00pY7pyGUkJLiv2h3iP4uUWyole9E9b9zBsJkbDSTiGhn1x9KQv0pZKHqi91fTLjoZ/OgMO3We4+YciJjfi+EavxsMiQH0ppddqUamg0W0XyceGEU89t0knoslkgwtx9jeBSaDrrOMH62I3PpaM5a2brkXaRl2Zpkc7YTMzLTZ3/Ny8SD8kvI/mWwV7plxHahsfYem4+HLvtOb1o8mG5XsexarwKYCRfqTAM71W61OenhTC9xlBMaaxfymzjTjMXzoafaKZ3k8lkGkWPj49D5aZ/2//56unp6Wd/YTZHNJYvVbzZ0AkCLUhpmrppm+stkh/TvDS3S+tuBdfLY7c7p2SJWeatn587G43E9qqZ1Upf6fp4PE5XR37ZOBsMeucemQqWVvuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfxB1V9iKunIpiCAAAAAElFTkSuQmCC"
+                        alt="">
+                </div>
+                <div class="content">
+                    <h2>Quality Assurance</h2>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and
+                        test the pitch of your instrument. </p>
+                </div>
+            </div>
+        </section>
+        <section id="How_It_Works">
+            <iframe id="video" allowfullscreen=""
+                src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0"
+                frameborder="0"></iframe>
+        </section>
+        <section id="Pricing">
+            <div id="tenor" class="product">
+                <div class="level">Tenor Trombone</div>
+                <h2>$600</h2>
+                <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+                <button class="btn">Submit</button>
+            </div>
+
+            <div id="bass" class="product">
+                <div class="level">Bass Trombone</div>
+                <h2>$900</h2>
+                <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+                <button class="btn">Submit</button>
+            </div>
+
+            <div id="value" class="product">
+                <div class="level">Valve Trombone</div>
+                <h2>$1200</h2>
+                <ol>
+
+                    <li> Plays similar to a Trumpet.</li>
+                    <li>Great for Jazz Bands</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+                <button class="btn">Submit</button>
+            </div>
+        </section>
+        <footer>
+            <ul>
+                <li><a href="privacy">Privacy</a></li>
+                <li><a href="terms">Terms</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+            <span>Copyright 2016, Original Trombones</span>
+        </footer>
+    </div>
+</body>
+
+</html>
